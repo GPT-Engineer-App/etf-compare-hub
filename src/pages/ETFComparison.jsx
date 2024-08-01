@@ -9,16 +9,17 @@ const fetchETFList = async () => {
     { id: 1, name: 'SPY', description: 'SPDR S&P 500 ETF Trust' },
     { id: 2, name: 'QQQ', description: 'Invesco QQQ Trust' },
     { id: 3, name: 'VTI', description: 'Vanguard Total Stock Market ETF' },
+    { id: 4, name: 'DFNG', description: 'Defiance Next Gen SPAC Derived ETF' },
   ];
 };
 
 const fetchETFPerformance = async (ids) => {
   // This would be replaced with an actual API call
   return [
-    { year: '2019', SPY: 31.2, QQQ: 39.1, VTI: 30.8 },
-    { year: '2020', SPY: 18.4, QQQ: 48.6, VTI: 21.0 },
-    { year: '2021', SPY: 28.7, QQQ: 27.2, VTI: 25.7 },
-    { year: '2022', SPY: -18.1, QQQ: -32.6, VTI: -19.5 },
+    { year: '2019', SPY: 31.2, QQQ: 39.1, VTI: 30.8, DFNG: 15.3 },
+    { year: '2020', SPY: 18.4, QQQ: 48.6, VTI: 21.0, DFNG: 22.7 },
+    { year: '2021', SPY: 28.7, QQQ: 27.2, VTI: 25.7, DFNG: -3.2 },
+    { year: '2022', SPY: -18.1, QQQ: -32.6, VTI: -19.5, DFNG: -28.9 },
   ];
 };
 

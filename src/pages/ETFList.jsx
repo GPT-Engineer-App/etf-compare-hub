@@ -10,6 +10,7 @@ const fetchETFs = async () => {
     { id: 1, name: 'SPY', description: 'SPDR S&P 500 ETF Trust' },
     { id: 2, name: 'QQQ', description: 'Invesco QQQ Trust' },
     { id: 3, name: 'VTI', description: 'Vanguard Total Stock Market ETF' },
+    { id: 4, name: 'DFNG', description: 'Defiance Next Gen SPAC Derived ETF' },
   ];
 };
 
